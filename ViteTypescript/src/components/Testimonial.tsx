@@ -1,5 +1,7 @@
 // import React from "react";
 
+import Pagination from "./Pagination";
+
 const Testimonial = () => {
   return (
     <div>
@@ -108,6 +110,7 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
+      {<Pagination />}
     </div>
   );
 };

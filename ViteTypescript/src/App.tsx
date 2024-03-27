@@ -8,6 +8,7 @@ import Post from "./components/Post";
 import Ai from "./components/Ai";
 import Contact from "./components/Contact";
 import Login from "./components/Login";
+// import Pagination from "./components/Pagination";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
       </Routes>
+      {/* <Pagination /> */}
       <Footer />
     </div>
   );
